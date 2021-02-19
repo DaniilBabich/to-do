@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+}
+
+.header {
+    font: bold 32px Georgia;
+    color: brown;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid brown;
+}
+
+.newTaskContainer {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.add {
+    width: 30px;
+    cursor: pointer;
+}
+
+.newTaskInput {
+    display: block;
+    width: 100%;
+    border: 1px solid brown;
+    font: 24px Georgia;
+    color: brown;
+}
+
+.newTaskInput:focus {
+    outline: none;
+}
+
+.taskList {
+    margin: 40px auto;
+    width: 50%;
+}
+
+.task {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 5px;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.index {
+    font: 20px Georgia;
+    color: dimgrey;
+}
+
+.text {
+    font: 24px Georgia;
+    color: brown;
+}
+
+.close {
+    width: 20px;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 3px 30px;
+    background-color: brown;
+    font: 20px Georgia;
+    color: snow;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
